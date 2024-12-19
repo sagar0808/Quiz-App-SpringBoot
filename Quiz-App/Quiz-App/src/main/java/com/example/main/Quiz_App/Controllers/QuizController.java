@@ -15,6 +15,11 @@ public class QuizController {
     @Autowired
     private QuizService quizService;
 
+    @GetMapping("/")
+    public String welcome(){
+        return "Welcome to Quiz Application";
+    }
+
     @PostMapping("/start")
     public ResponseEntity<QuizSession> startNewSession(@RequestParam String userId) {
         QuizSession session = quizService.startNewSession(userId);
