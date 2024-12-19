@@ -30,15 +30,34 @@ Make sure you have the following installed:
 
 ```bash
 git clone https://github.com/sagar0808/Quiz-App-SpringBoot.git
+```
+```bash
 cd Quiz-App-SpringBoot
+```
+
+Do this 2 times
+```bash
+cd Quiz-App
 ```
 
 ### 2. Build and Run the Application
 
+## Installing
 ```bash
 mvn clean install
+```
+
+## Run
+```bash
 mvn spring-boot:run
 ```
+
+Now projects is running on localhost:8080
+
+```bash
+http://localhost:8080/api/quiz/
+```
+---
 
 ### 3. Database Configuration
 
@@ -49,10 +68,11 @@ http://localhost:8080/h2-console
 ```
 
 2. Database Url
-
+(Checks this url same as Jdbc Url)
 ```bash
 jdbc:h2:mem:test
 ```
+## Now Click Connect 
 
 3. Adding Question in Database
 
