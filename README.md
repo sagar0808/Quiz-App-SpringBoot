@@ -44,12 +44,12 @@ cd Quiz-App
 
 ## Installing
 ```bash
-mvn clean install
+mvnw.cmd clean install
 ```
 
 ## Run
 ```bash
-mvn spring-boot:run
+mvnw.cmd spring-boot:run
 ```
 
 Now projects is running on localhost:8080
